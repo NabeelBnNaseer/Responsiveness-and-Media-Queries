@@ -1,0 +1,106 @@
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-color: #F87E7E;
+    background-position: center;
+    background-size: cover;  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    padding: 50px 50px;
+    border-radius: 8px;
+}
+
+.tryItDiv {
+    padding: 5px 0px;
+    background-color: #5E55A3;
+    width: 500px;
+    text-align: center;
+    color: white;
+    align-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: 0px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 700;
+ }
+
+.secondDiv {
+    color: white;
+    padding-right:100px;
+    width: 500px;
+}
+
+input { 
+    margin-bottom: 20px;
+    height: 40px;
+    border: 2px solid #F8F8F8;
+    border-radius: 8px;
+}
+
+.titleLearn {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 18px;
+  
+}
+
+.termsButton {
+    font-size: 12px;
+    color:#E2E1E8;
+    font-weight: 600;
+}
+
+.colored {
+    color: #FF7878;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        background-image: url("bg-intro-mobile.png");
+        background-repeat: no-repeat;
+        background-color: #F87E7E;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        padding-right:0px;
+        margin-bottom: 70px;
+    }
+  }
+
+  
